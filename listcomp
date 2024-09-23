@@ -1,0 +1,25 @@
+list = [i for i in range(11) if i % 2 == 0]
+print(list)
+
+#matrix
+matrix = [[j for j in range(3)] for i in range(3)]
+print(matrix)
+
+#set 
+myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+newSet = {element*3 for element in myList} 
+print(newSet)
+
+#set if
+myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+newSet = {element*3 for element in myList if element % 2==0} 
+print(newSet)
+
+#set
+mySet = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} 
+print(mySet) 
+mySet = {element for element in mySet if element % 2 == 0} 
+print(mySet)
+
+
+
