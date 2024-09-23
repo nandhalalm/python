@@ -1,0 +1,2 @@
+n=()
+print(type(n))
